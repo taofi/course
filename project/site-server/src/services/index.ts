@@ -1,0 +1,25 @@
+import { AuthService } from "./auth.service";
+import {userRepository, cardRepository, doorsRepository} from "@src/db/repositories";
+import { RedisService } from "./redis.service";
+import { UserService } from "./user.service";
+import { EmailService } from "./email.service";
+import { LobbyService } from "./lobby.service";
+import { DeckInitializationService } from "./deck.initialization.service";
+import { GameService } from "./game.service";
+import { GameRedisService } from "./game.redis.service";
+import { CardLibraryService } from "./card.library.service";
+import { PlayerService } from "./player.service";
+import { DeckService } from "./deck.service";
+import { BattleService } from "./battle.service";
+
+export const redisService = new RedisService();
+export const emailService = new EmailService();
+export const lobbyService = new LobbyService(redisService);
+export const authService = new AuthService(userRepository, redisService, emailService);
+export const userService = new UserService(userRepository);
+export const gameRedisService = new GameRedisService(redisService);
+export const deckService = new DeckService(redisService, cardRepository, doorsRepository, gameRedisService);
+export const gameService = new GameService(gameRedisService, lobbyService, deckService);
+export const cardLibraryService = new CardLibraryService(cardRepository, doorsRepository);
+export const playerService = new PlayerService(gameRedisService);
+export const battleService = new BattleService(gameRedisService, playerService);

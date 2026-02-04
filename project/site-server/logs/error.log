@@ -1,0 +1,109 @@
+2025-09-19T08:39:01.621Z [error]: Database connection error: self.log is not a function
+2025-09-24T09:38:24.411Z [error]: Redis error: connect ECONNREFUSED 127.0.0.1:6379
+2025-09-24T16:42:15.210Z [error]: Redis error: connect ECONNREFUSED 127.0.0.1:6379
+2025-09-26T11:13:12.942Z [error]: Redis error: connect ECONNREFUSED 127.0.0.1:6379
+2025-09-26T11:21:06.860Z [error]: Ошибка регистрации: Ошибка регистрации: undefined
+2025-09-26T11:23:12.719Z [error]: Ошибка регистрации: undefined
+2025-09-26T19:04:00.764Z [error]: Ошибка регистрации: Ошибка валидации данных пользователя
+2025-09-26T19:06:23.323Z [error]: Ошибка регистрации: Ошибка валидации данных пользователя
+2025-10-02T09:44:39.443Z [error]: Ошибка регистрации: Cannot destructure property 'name' of 'req.body' as it is undefined.
+2025-12-07T15:40:01.367Z [error]: Redis error: NOAUTH Authentication required.
+2025-12-07T15:42:50.933Z [error]: Redis error: NOAUTH Authentication required.
+2025-12-07T19:05:56.728Z [error]: Redis error: connect ECONNREFUSED 127.0.0.1:6380
+2025-12-10T14:27:40.548Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:27:47.022Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:29:08.995Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:29:12.438Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:29:29.974Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:29:38.505Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:29:45.295Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:30:16.591Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:30:59.153Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:31:00.306Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:33:23.094Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:33:24.402Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:33:29.275Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:34:20.874Z [error]: Ошибка при чтении папки public/avatars: Error: ENOENT: no such file or directory, scandir 'D:\7sem\курсовой\проект\site-server\public\avatars'
+2025-12-10T14:35:06.188Z [error]: D:\7sem\курсовой\проект\site-server\src\public\avatars
+2025-12-10T15:02:42.956Z [error]: D:\7sem\курсовой\проект\site-server\src\public\uploads\avatars\avatar-68e014c8899780b759afacd2.jpg
+2025-12-14T12:42:14.214Z [error]: Redis error: connect ECONNREFUSED 127.0.0.1:6380
+2025-12-16T16:10:11.424Z [error]: Redis error: connect ECONNREFUSED 127.0.0.1:6380
+2025-12-17T08:52:02.380Z [error]: Redis error: connect ECONNREFUSED 127.0.0.1:6380
+2025-12-17T09:14:12.704Z [error]: Incomplete lobby data received from Redis
+2025-12-17T09:14:12.712Z [error]: Failed to create lobby 3a1ac5c0-fb5c-4f16-9fc5-9591d1692230: Lobby data is missing critical fields.
+2025-12-17T09:14:15.993Z [error]: Incomplete lobby data received from Redis
+2025-12-17T09:14:15.994Z [error]: Failed to create lobby c46ec8ef-95ae-4cfc-a229-7ab11fbbaedf: Lobby data is missing critical fields.
+2025-12-20T18:38:07.183Z [error]: Redis error: connect ECONNREFUSED 127.0.0.1:6380
+2025-12-20T18:54:51.765Z [error]: Redis error: connect ECONNREFUSED 127.0.0.1:6380
+2025-12-20T18:57:17.144Z [error]: Redis error: connect ECONNREFUSED 127.0.0.1:6380
+2025-12-20T19:01:39.589Z [error]: Redis error: connect ECONNREFUSED 127.0.0.1:6380
+2025-12-20T19:36:26.618Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:36:27.795Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:36:27.881Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:36:27.900Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:36:29.198Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:36:29.202Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:36:29.445Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:36:29.661Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:36:41.652Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:36:41.653Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:37:50.786Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:37:50.787Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:39:53.647Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:39:53.759Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:39:53.944Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:39:54.068Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:39:55.068Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:39:56.069Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:40:54.553Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:40:54.554Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:41:20.637Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-20T19:41:20.639Z [error]: Unhandled Rejection: Error: Method not implemented.
+2025-12-21T15:45:45.764Z [error]: MongoDB connection failed: User validation failed: email: Path `email` is required.
+2025-12-21T15:46:32.735Z [error]: MongoDB connection failed: User validation failed: email: Path `email` is required.
+2026-01-13T21:21:14.836Z [error]: {}
+2026-01-14T13:16:14.866Z [error]: {"statusCode":400}
+2026-01-14T13:17:59.215Z [error]: Stats not found for player 69458edd44033ddd128eef05 in game 4d3b04ad-1608-4524-ae68-8f3f82ef0fb1
+2026-01-14T13:17:59.215Z [error]: [ActionDispatcher] Error: Данные игрока не найдены
+2026-01-14T13:17:59.232Z [error]: Stats not found for player 69458edd44033ddd128eef05 in game 4d3b04ad-1608-4524-ae68-8f3f82ef0fb1
+2026-01-14T13:17:59.232Z [error]: {"statusCode":400}
+2026-01-14T13:19:00.417Z [error]: [ActionDispatcher] Error: У игрока нет предмета в слоте armor
+2026-01-14T13:22:21.215Z [error]: {"statusCode":400}
+2026-01-14T13:22:38.647Z [error]: {"name":"GameRuleError","code":"INVALID_RACE","status":400}
+2026-01-14T13:22:42.945Z [error]: {"name":"GameRuleError","code":"INVALID_RACE","status":400}
+2026-01-14T13:36:00.318Z [error]: [ActionDispatcher] Error: У игрока нет предмета в слоте armor
+2026-01-14T13:36:39.074Z [error]: {"name":"GameRuleError","code":"INVALID_RACE","status":400}
+2026-01-14T13:40:33.201Z [error]: {"statusCode":400}
+2026-01-14T13:40:44.932Z [error]: {"name":"GameRuleError","code":"INVALID_RACE","status":400}
+2026-01-14T13:50:30.775Z [error]: {"name":"GameRuleError","code":"LIMIT_BIG_ITEMS","status":400}
+2026-01-14T15:18:41.235Z [error]: {"statusCode":400}
+2026-01-14T15:24:12.321Z [error]: {"statusCode":400}
+2026-01-14T15:28:53.160Z [error]: {"statusCode":400}
+2026-01-14T15:30:47.769Z [error]: {"statusCode":400}
+2026-01-14T15:30:57.786Z [error]: {"statusCode":400}
+2026-01-14T17:13:02.564Z [error]: [ActionDispatcher] Error: У игрока нет предмета в слоте armor
+2026-01-14T17:20:17.344Z [error]: [ActionDispatcher] Error: У игрока нет предмета в слоте armor
+2026-01-14T17:23:39.327Z [error]: [ActionDispatcher] Error: У игрока нет предмета в слоте armor
+2026-01-14T17:25:52.487Z [error]: {"statusCode":400}
+2026-01-14T17:26:44.871Z [error]: {"statusCode":400}
+2026-01-14T17:32:37.738Z [error]: [ActionDispatcher] Error: У игрока нет предмета в слоте armor
+2026-01-14T17:37:37.527Z [error]: [ActionDispatcher] Error: У игрока нет предмета в слоте armor
+2026-01-14T17:37:54.488Z [error]: [ActionDispatcher] Error: У игрока нет предмета в слоте armor
+2026-01-14T17:39:50.453Z [error]: {"statusCode":400}
+2026-01-14T17:40:25.456Z [error]: [ActionDispatcher] Error: У игрока нет предмета в слоте armor
+2026-01-14T17:41:00.770Z [error]: {"statusCode":400}
+2026-01-14T17:44:35.381Z [error]: {"statusCode":400}
+2026-01-14T17:45:42.403Z [error]: {"statusCode":400}
+2026-01-14T18:22:38.899Z [error]: [GameEngine] Error during ending game 64bfd397-13ec-4038-9650-6eefbd6185e7: ValidationError: logFile: Path `logFile` is required.
+2026-01-14T18:24:33.777Z [error]: [GameEngine] Error during ending game 64bfd397-13ec-4038-9650-6eefbd6185e7: ValidationError: logFile: Path `logFile` is required.
+2026-01-14T18:25:57.761Z [error]: {"name":"GameRuleError","code":"INVALID_RACE","status":400}
+2026-01-14T18:46:37.386Z [error]: {"statusCode":400}
+2026-01-14T18:47:47.928Z [error]: {"statusCode":400}
+2026-01-14T18:48:15.637Z [error]: {"statusCode":400}
+2026-01-14T18:48:38.403Z [error]: [ActionDispatcher] Error: У игрока нет предмета в слоте armor
+2026-01-14T18:48:38.409Z [error]: [ActionDispatcher] Error: У игрока нет предмета в слоте boots
+2026-01-14T18:51:21.167Z [error]: {"statusCode":400}
+2026-01-15T07:26:20.801Z [error]: Redis error: connect ECONNREFUSED 127.0.0.1:6380
+2026-01-15T12:07:32.061Z [error]: {"statusCode":400}
+2026-01-15T12:07:38.549Z [error]: {"statusCode":400}
+2026-01-15T12:07:49.890Z [error]: {"statusCode":400}

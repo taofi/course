@@ -1,0 +1,59 @@
+name: munchkin-project
+
+services:
+  # Redis: доступен снаружи на 6380, внутри на 6379
+  redis:
+    image: redis:alpine
+    ports:
+      - "6380:6379"
+    networks:
+      - munchkin-network
+
+  backend:
+    build:
+      context: .
+      dockerfile: site-server/Dockerfile
+    volumes:
+      - ./site-server:/app
+      - ./shared:/shared
+      - /app/node_modules 
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - MONGO_URI=mongodb://host.docker.internal:27017/courseDb
+      - REDIS_URL=redis://redis:6379 
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      - redis
+    networks:
+      - munchkin-network
+
+  frontend:
+    build:
+      context: .
+      dockerfile: front-board-game/Dockerfile
+    volumes:
+      - ./front-board-game:/app
+      - ./shared:/shared
+      - /app/node_modules
+    # Порт 5173 для Vite
+    networks:
+      - munchkin-network
+
+  # docker-compose.yml
+  nginx:
+    image: nginx:stable-alpine
+    ports:
+      - "9000:80" # Внешний порт 9000, внутренний 80
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - munchkin-network
+
+networks:
+  munchkin-network:
+    driver: bridge

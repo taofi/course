@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+:root {
+  --font-sans: 'Merriweather', serif; 
+  --font-heading: 'Cormorant Garamond', serif;
+  --radius: 0.625rem;
+
+  /* Базовые цвета — Сделали фон более "пыльным" и глубоким */
+  --background: #F2EBD4; /* Тёмный пергамент (чуть более серый/коричневый) */
+  --foreground: #2C2C28; /* Мягкий антрацит вместо черного */
+
+  /* Контейнеры и Карточки — Сделали чуть темнее и холоднее */
+  --card: #DFDBD0; 
+  --card-foreground: #2C2C28;
+
+  /* Основные действия — Бронза теперь более "состаренная" и менее желтая */
+  --primary: #947A4A; /* Приглушенная состаренная бронза */
+  --primary-foreground: #F2EBD4;
+
+  /* Вторичные элементы — Больше уходим в бежево-серый */
+  --secondary: #D4D0C5; 
+  --secondary-foreground: #7D663E; /* Темно-золотистый акцент */
+
+  /* Скрытые/Неактивные элементы — Синий стал более серо-стальным */
+  --muted: #D4D0C5;
+  --muted-foreground: #6B7B8C; /* Пыльный сине-серый */
+
+  /* Границы и Ввод — Тонкие, не кричащие */
+  --border: #B5AFA2; 
+  --input: #D4D0C5; 
+  --ring: #947A4A; 
+
+  /* Деструктивные действия — Приглушенный терракотовый вместо алого */
+  --destructive: #A64444; 
+
+  /* Боковая панель */
+  --sidebar: #DFDBD0;
+  --sidebar-foreground: #2C2C28;
+  --sidebar-primary: #947A4A;
+  --sidebar-primary-foreground: #F2EBD4;
+
+  --popover: #F2EBD4; 
+  --popover-foreground: #2C2C28;
+}
+
+.dark {
+  /* Базовые цвета */
+  --background: #1A1A1E; /* Глубокий Тёмный (Сайт Фон) */
+  --foreground: #F0F0F0; /* Светлый Текст */
+
+  /* Контейнеры и Карточки */
+  --card: #292931; /* Тёмно-Серый Камень (Фон карточек/блоков) */
+  --card-foreground: #F0F0F0;
+
+  /* Основные действия (Кнопки, Фокус) */
+  --primary: #BB995B; /* Бронзовый/Золото (Основной Акцент) */
+  --primary-foreground: #1A1A1E; /* Текст на золоте */
+
+  /* Вторичные элементы (Навигация, Подсветка) */
+  --secondary: #292931; /* Тёмно-Серый (Вторичный Фон) */
+  --secondary-foreground: #BB995B; /* Золотой (Акцент на вторичном) */
+
+  /* Скрытые/Неактивные элементы */
+  --muted: #292931;
+  --muted-foreground: #5E85A8; /* Приглушённый Синий (Как мягкий акцент) */
+
+  /* Границы и Ввод */
+  --border: #BB995B; /* Границы золотые */
+  --input: #5E85A8; /* Приглушённый Синий (Акцент для полей ввода) */
+  --ring: #BB995B; /* Кольцо фокусировки - Золотое */
+
+  /* Деструктивные действия */
+  --destructive: oklch(0.704 0.191 22.216); /* Сохраняем красным, но можно сделать более "лавовым" */
+
+  /* Боковая панель (пример адаптации) */
+  --sidebar: #292931; /* Тёмно-Серый */
+  --sidebar-foreground: #F0F0F0;
+  --sidebar-primary: #BB995B;
+  --sidebar-primary-foreground: #1A1A1E;
+
+  --popover: #292931; 
+  --popover-foreground: #F0F0F0;
+}
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+body {
+  font-family: var(--font-sans); 
+}
+
+h1, h2, h3, h4, h5, h6,
+.text-3xl, .text-4xl, .text-5xl {
+  font-family: var(--font-heading); 
+}

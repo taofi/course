@@ -1,0 +1,17 @@
+{
+  "development": {
+    "redis": {
+      "cacheTtlSeconds": 3600 
+    }
+  },
+  "test": {
+    "redis": {
+      "cacheTtlSeconds": 60 
+    }
+  },
+  "production": {
+    "redis": {
+      "cacheTtlSeconds": 3600 
+    }
+  }
+}
